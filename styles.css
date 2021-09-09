@@ -1,0 +1,65 @@
+body{
+  background-image: url("top.jpg");
+}
+.cal{
+  height: 600px;
+  width: 400px;
+  background-color: white;
+  position: relative;
+  left: 450px;
+  top: 20px;
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: 5px 5px 10px 10px white;
+}
+.container{
+  height: 120px;
+}
+.history{
+ height:  30px;
+ text-align:right;
+ color: #687980;
+ font-size: 30px;
+
+}
+.result{
+  height: 100px;
+  text-align:right;
+  font-size: 40px;
+
+}
+.keyboard{
+  height: 400px;
+  margin-left: 20px;
+
+}
+.operator, .number, .empty{
+  width: 60px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border: 0px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.number,.empty{
+  background-color: white;
+
+}
+.number:hover{
+  background-color: #f21170;
+}
+button:nth-child(4){
+  background-color: #20b2aa;
+}
+button:nth-child(8){
+  background-color: #ffa500;
+}
+button:nth-child(12){
+  background-color: #f08080;
+}
+button:nth-child(16){
+  background-color: #9477af;
+}
